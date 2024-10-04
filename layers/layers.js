@@ -8,7 +8,7 @@ var wms_layers = [];
             
             
             source: new ol.source.XYZ({
-    attributions: ' &middot; <a href="https://wiki.openstreetmap.org/wiki/Esri">Terms & Feedback</a>',
+    attributions: ' &middot; <a href="https://wiki.openstreetmap.org/wiki/Esri"></a>',
                 url: 'https://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
             })
         });
